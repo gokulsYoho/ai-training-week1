@@ -1,0 +1,9 @@
+# List Comprehension vs For Loop
+
+%timeit [x * 2 for x in range(1000)]
+def make_list():
+    res = []
+    for x in range(1000):
+        res.append(x * 2)
+    return res
+%timeit make_list()
