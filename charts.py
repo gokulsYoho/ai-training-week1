@@ -57,3 +57,5 @@ plt.ylabel("Sales")
 plt.tight_layout()
 plt.savefig("monthly_sales.png")
 plt.close()
+
+# Completed charts script
